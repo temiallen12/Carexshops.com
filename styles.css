@@ -1,0 +1,23 @@
+
+    *, *::after, *::before {
+        padding: 0;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+
+/* nav bar */
+.nav-bar{
+    display: flex;
+    padding-top: 10px;
+}
+
+
+
+input[type=text], .d-flex {
+    width: 500px;
+    box-sizing: border-box;
+    border-radius: 4px;
+    padding: 4.5px;
+    cursor: pointer;
+}
