@@ -1,23 +1,29 @@
 
-    *, *::after, *::before {
+    /* *, *::after, *::before {
         padding: 0;
         margin-left: 10px;
         margin-right: 10px;
-    }
+    } */
 
+/* Changes for the logo */
+/* .navbar-brand{
+    padding-left: 4%;
+} */
 
 /* nav bar */
-.nav-bar{
+/* .nav-bar{
     display: flex;
     padding-top: 10px;
-}
+} */
 
 
 
-input[type=text], .d-flex {
+
+/* input[type=text],{
     width: 500px;
     box-sizing: border-box;
     border-radius: 4px;
     padding: 4.5px;
-    cursor: pointer;
+    cursor: pointer; */
 }
+/* we can't use  dflex it will confuse and cause problem atm be its mostly used and it can others classes and make us debugg */
