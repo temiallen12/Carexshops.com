@@ -4,7 +4,6 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="styles.css">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css"
     integrity="sha384-b6lVK+yci+bfDmaY1u0zE8YYJt0TZxLEAFyYSLHId4xoVvsrQu3INevFKo+Xir8e" crossorigin="anonymous">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
@@ -16,31 +15,71 @@
 <body>
   <!-- THE NAvbar opening  -->
   <welcome_page>
-    <nav class="navbar navbar-expand-lg bg-body " style="padding: 12px;" ">
-      <div class="container-fluid"style="justify-content: center;>
-        <a class="navbar-brand" href="#"><img src="images/carexshop.jpg" alt="""></a>
+    <nav class="navbar navbar-expand-lg bg-body " style="padding: 12px; margin-left: 10%;position: relative;">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#"><img src="images/carexshop.jpg" alt="" style="position: relative; right: 130px; width: 12rem;border-top-left-radius: 5px; border-top-right-radius: 5px;"></a>
 
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        <!-- <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
           aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
-        </button>
+        </button> -->
+
         <div class="collapse navbar-collapse" id="navbarSupportedContent" ">
-          <form class="" role="search" style="  width: 50%;">
-            <input class="form-control " type="search" placeholder="Search" aria-label="Search">
+
+          <form class="" role=" search"">
+          <input class="form-control " type="search" placeholder="Search For Product " aria-label="Search" style="position: relative; width: 50em; height: 45px;">
           </form>
-          <div class="Fonty" style="font-size: 2.6rem; margin-left:; ">
-            <i class="bi bi-person"></i>
-            <i class="bi bi-heart"></i>
-            <i class="bi bi-bag-heart"></i>
+
+
+          <div class="Fonty" style="font-size: 2.6rem; position: relative; margin-left: 15%;  ">
+            <i class="as_person   bi bi-person" style="margin-right: 10px;"></i>
+            <i class="as_somewhat   bi bi-heart"></i>
+            <i class="as_mester   bi bi-bag-heart" style="margin-left: 10px;"></i>
           </div>
-      </div>
+        </div>
       </div>
     </nav>
   </welcome_page>
 
   <!-- THE NAvbar closing  -->
+<br>
+  <!-- the middle text -->
+   <section>
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Link</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Dropdown
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">Action</a></li>
+            <li><a class="dropdown-item" href="#">Another action</a></li>
+            <li><hr class="dropdown-divider"></li>
+            <li><a class="dropdown-item" href="#">Something else here</a></li>
+          </ul>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+        </li>
+      </ul>
+</section>
 
 
+  <!-- Sorry i did the css like this it wasnt fucntioning and i dont want to waste time on something we have not started -->
+  <!-- For the picture  -->
+  <picture class="slides2 img-fluid" style="">
+    <img class="slide4 img-fluid" style="width: 50%; border-radius: 6px; position: relative; margin-left: 17%; width: 70%; height:33rem ; top: 70px;"    src="images/blog-1.jpg">
+    <img class="slide4 img-fluid" style="width: 50%; border-radius: 6px; position: relative; margin-left: 17%; width: 70%; height:33rem ; top: 70px;"   src="images/blog-2.jpg">
+    <img class="slide4 img-fluid" style="width: 50%; border-radius: 6px; position: relative; margin-left: 17%; width: 70%; height:33rem ; top: 70px;"   src="images/blog-3.jpg">
+    <img class="slide4 img-fluid" style="width: 50%; border-radius: 6px; position: relative; margin-left: 17%; width: 70%; height:33rem ; top: 70px;"   src="images/blog-4.jpg">
+  </picture>
+  <!-- the closing for the slides  -->
+<script src="/style.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
     crossorigin="anonymous"></script>
