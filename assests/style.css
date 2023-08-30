@@ -1,0 +1,20 @@
+
+.column {
+    width: 110px;
+    float: left;
+    gap: 20px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.problem{
+    position: relative;
+    left: 30%;
+}
+.slide4{
+    width: 50%; 
+    border-radius: 
+    6px; position: relative; 
+    margin-left: 17%; 
+    width: 70%; 
+    height:33rem ; 
+    bottom: 20px;
+}
