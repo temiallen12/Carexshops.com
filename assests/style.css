@@ -1,20 +1,78 @@
+*{
 
+}
 .column {
     width: 110px;
-    float: left;
+   display: flex;
     gap: 20px;
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
-.problem{
-    position: relative;
+
+.problem {
+    display: flex;
+    justify-content: center;
+    /* position: relative; */
     left: 30%;
 }
-.slide4{
-    width: 50%; 
-    border-radius: 
-    6px; position: relative; 
-    margin-left: 17%; 
-    width: 70%; 
-    height:33rem ; 
-    bottom: 2px;
+
+.slide4 {
+    width: 50%;
+    border-radius:
+        6px;
+    position: relative;
+    margin-left: 5%;
+    width: 90%;
+    height: 30rem;
+    top: 13px;
+}
+
+.buy_list {
+    display: flex;
+    position: relative;
+    left: 5%;
+    width: auto !important;
+    gap: 13px;
+    overflow-x: auto; 
+    justify-content: center;
+    text-align: center;
+
+}
+
+.forsee {
+
+    position: relative;
+    top: 35px;
+    width: 20%;
+    border-radius: 5px;
+    height: 80px;
+
+}
+
+.newpoint {
+    position: relative;
+    top: 12px;
+    left: 10px;
+    width: 70px;
+    height: 50px;
+    border-radius: 6px;
+    background-color: #ededed;
+}
+
+.as_sit {
+    font-size: 30px;
+    justify-content: center;
+}
+
+.category-item-title {
+    position: relative;
+    font-size: 14px;
+    left: 70px;
+    bottom: 40px;
+}
+
+.category-item-amount {}
+
+.category-btn {
+    position: relative;
+    right: 0px;
 }
