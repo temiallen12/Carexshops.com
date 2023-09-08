@@ -1,28 +1,8 @@
-# Carexshops.com
+                                # Carexshops.com
 **********Shop for shoes ladies wear and accessories **************
 
 
 <!-- I came to drop all the css here because i didnt think its need for now and you might still need it that the reaon why i put it here  -->
-<!-- 
-    /* *, *::after, *::before {
-        padding: 0;
-        margin-left: 10px;
-        margin-right: 10px;
-    } */
-
-/* Changes for the logo */
-/* .navbar-brand{
-    padding-left: 4%;
-} */
-
-/* nav bar */
-/* .nav-bar{
-    display: flex;
-    padding-top: 10px;
-} */
-
-
-
 
 /* input[type=text],{
     width: 500px;
@@ -39,4 +19,5 @@
     margin-left: 17%; 
     width: 70%; 
     height:33rem ;
-} -->
+} 
+<!--YOU CAN WRITE YOUR MISTAKES AND WHAT YOU WOULD SUGGEST WE DO AND CHANGE IN THIS PROJECT -->

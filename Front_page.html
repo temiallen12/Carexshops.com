@@ -9,7 +9,7 @@
     integrity="sha384-b6lVK+yci+bfDmaY1u0zE8YYJt0TZxLEAFyYSLHId4xoVvsrQu3INevFKo+Xir8e" crossorigin="anonymous">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
-</head>
+
 <title>Carexshops.com</title>
 </head>
 
@@ -17,8 +17,12 @@
   <!-- THE NAvbar opening  -->
   <welcome_page>
     <nav class="navbar navbar-expand-lg bg-body ">
-      <div class="container-fluid" >
-        <a class="navbar-brand img-fluid" href="#"><img src="images/CAREXSHOPS.svg" alt="" style=" width: 240px;"></a>
+      <div class="container-fluid">
+
+        <a class="navbar-brand img-fluid" href="#">
+
+          <!-- THE INLINE WIDTH HERE IS FOR TESTING  -->
+          <img src="images/CAREXSHOPS.svg" alt="" style=" width: 240px;"></a>
 
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
           aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -26,23 +30,31 @@
         </button>
 
         <div class="collapse navbar-collapse" id="navbarSupportedContent" ">
-       <form class="" role=" search"">
+
+          <!-- I WILL REMOVE THIS INLINE CODE SOON -->
+
+          <form class="" role=" search"">
           <input class="form-control " type="search" placeholder="Search For Product " aria-label="Search"
             style="position: relative; width: 400%; height: 45px; left: 20%;">
           </form>
 
+          <!-- I will personnally remove the the inline here so that everyone can know  -->
+
+          <!-- THIS IS THE ICONS -->
 
           <div class="Fonty img-fluid"
             style="font-size: 9px; position: relative; left: 60%;gap: 10px; font-size: 50px; ">
             <i class="as_person   bi bi-person" style="margin-right: 10px;"></i>
             <i class="as_somewhat   bi bi-heart"></i>
             <i class="as_mester   bi bi-bag-heart" style="margin-left: 10px;"></i>
-            <a class="bi bi-cart3" href="test.html" style="color: black;"></a>
+            <a class="bi bi-cart3" href="Cart.html" style="color: black;"></a>
           </div>
         </div>
 
       </div>
+
     </nav>
+
   </welcome_page>
 
   <!-- THE NAvbar closing  -->
@@ -78,8 +90,9 @@
       </div>
 
       <div class="column">
+        
         <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-        Footwear
+          Footwear
         </a>
         <ul class="dropdown-menu">
           <li><a class="dropdown-item" href="#">Sports</a></li>
@@ -90,34 +103,29 @@
       </div>
 
     </section>
+
     <!-- the middle text -->
+
     <br>
-    <!-- Sorry i did the css like this it wasnt fucntioning and i dont want to waste time on something we have not started -->
+
     <!-- For the picture  -->
+
     <picture class="#">
+
       <img class="slide4 " src="images/blog-1.jpg">
+
       <img class="slide4 " src="images/blog-2.jpg">
+
       <img class="slide4 " src="images/blog-3.jpg">
+
       <img class="slide4 " src="images/blog-4.jpg">
     </picture>
+
     <!-- the closing for the slides  -->
+
     <!-- end of blog section-->
+
     <br>
-
-    <!-- <Tension class="buy_list">
-
-      <div class="forsee border ">
-        <div class="newpoint  border">
-          <i class="as_sit   bi bi-heart"></i>
-
-          <h3 class="category-item-title">Dress & frock</h3>
-
-          <p class="category-item-amount">(53)</p>
-        </div>
-      </div>
-    </Tension> -->
-    <!-- sorry i was trying something with this tension div  -->
-
 
     <!-- category starting  -->
 
@@ -295,695 +303,120 @@
 
     <!-- category ending -->
 
-    <!--
-          - SIDEBAR
-        -->
-
-    <div class="sidebar  has-scrollbar" data-mobile-menu>
-
-      <div class="sidebar-category">
-
-        <div class="sidebar-top">
-          <h2 class="sidebar-title">Category</h2>
-
-          <button class="sidebar-close-btn" data-mobile-menu-close-btn>
-            <ion-icon name="close-outline"></ion-icon>
-          </button>
-        </div>
-
-        <ul class="sidebar-menu-category-list">
-
-          <li class="sidebar-menu-category">
-
-            <button class="sidebar-accordion-menu" data-accordion-btn>
-
-              <div class="menu-title-flex">
-                <img src="./assets/images/icons/dress.svg" alt="clothes" width="20" height="20" class="menu-title-img">
-
-                <p class="menu-title">Clothes</p>
-              </div>
-
-              <div>
-                <ion-icon name="add-outline" class="add-icon"></ion-icon>
-                <ion-icon name="remove-outline" class="remove-icon"></ion-icon>
-              </div>
-
-            </button>
-
-            <ul class="sidebar-submenu-category-list" data-accordion>
-
-              <li class="sidebar-submenu-category">
-                <a href="#" class="sidebar-submenu-title">
-                  <p class="product-name">Shirt</p>
-                  <data value="300" class="stock" title="Available Stock">300</data>
-                </a>
-              </li>
-
-              <li class="sidebar-submenu-category">
-                <a href="#" class="sidebar-submenu-title">
-                  <p class="product-name">shorts & jeans</p>
-                  <data value="60" class="stock" title="Available Stock">60</data>
-                </a>
-              </li>
-
-              <li class="sidebar-submenu-category">
-                <a href="#" class="sidebar-submenu-title">
-                  <p class="product-name">jacket</p>
-                  <data value="50" class="stock" title="Available Stock">50</data>
-                </a>
-              </li>
-
-              <li class="sidebar-submenu-category">
-                <a href="#" class="sidebar-submenu-title">
-                  <p class="product-name">dress & frock</p>
-                  <data value="87" class="stock" title="Available Stock">87</data>
-                </a>
-              </li>
-
-            </ul>
-
-          </li>
-
-          <li class="sidebar-menu-category">
-
-            <button class="sidebar-accordion-menu" data-accordion-btn>
-
-              <div class="menu-title-flex">
-                <img src="./assets/images/icons/shoes.svg" alt="footwear" class="menu-title-img" width="20" height="20">
-
-                <p class="menu-title">Footwear</p>
-              </div>
-
-              <div>
-                <ion-icon name="add-outline" class="add-icon"></ion-icon>
-                <ion-icon name="remove-outline" class="remove-icon"></ion-icon>
-              </div>
-
-            </button>
-
-            <ul class="sidebar-submenu-category-list" data-accordion>
-
-              <li class="sidebar-submenu-category">
-                <a href="#" class="sidebar-submenu-title">
-                  <p class="product-name">Sports</p>
-                  <data value="45" class="stock" title="Available Stock">45</data>
-                </a>
-              </li>
-
-              <li class="sidebar-submenu-category">
-                <a href="#" class="sidebar-submenu-title">
-                  <p class="product-name">Formal</p>
-                  <data value="75" class="stock" title="Available Stock">75</data>
-                </a>
-              </li>
-
-              <li class="sidebar-submenu-category">
-                <a href="#" class="sidebar-submenu-title">
-                  <p class="product-name">Casual</p>
-                  <data value="35" class="stock" title="Available Stock">35</data>
-                </a>
-              </li>
-
-              <li class="sidebar-submenu-category">
-                <a href="#" class="sidebar-submenu-title">
-                  <p class="product-name">Safety Shoes</p>
-                  <data value="26" class="stock" title="Available Stock">26</data>
-                </a>
-              </li>
-
-            </ul>
-
-          </li>
-
-          <li class="sidebar-menu-category">
-
-            <button class="sidebar-accordion-menu" data-accordion-btn>
-
-              <div class="menu-title-flex">
-                <img src="./assets/images/icons/jewelry.svg" alt="clothes" class="menu-title-img" width="20"
-                  height="20">
-
-                <p class="menu-title">Jewelry</p>
-              </div>
-
-              <div>
-                <ion-icon name="add-outline" class="add-icon"></ion-icon>
-                <ion-icon name="remove-outline" class="remove-icon"></ion-icon>
-              </div>
-
-            </button>
-
-            <ul class="sidebar-submenu-category-list" data-accordion>
-
-              <li class="sidebar-submenu-category">
-                <a href="#" class="sidebar-submenu-title">
-                  <p class="product-name">Earrings</p>
-                  <data value="46" class="stock" title="Available Stock">46</data>
-                </a>
-              </li>
-
-              <li class="sidebar-submenu-category">
-                <a href="#" class="sidebar-submenu-title">
-                  <p class="product-name">Couple Rings</p>
-                  <data value="73" class="stock" title="Available Stock">73</data>
-                </a>
-              </li>
-
-              <li class="sidebar-submenu-category">
-                <a href="#" class="sidebar-submenu-title">
-                  <p class="product-name">Necklace</p>
-                  <data value="61" class="stock" title="Available Stock">61</data>
-                </a>
-              </li>
-
-            </ul>
-
-          </li>
-
-          <li class="sidebar-menu-category">
-
-            <button class="sidebar-accordion-menu" data-accordion-btn>
-
-              <div class="menu-title-flex">
-                <img src="./assets/images/icons/perfume.svg" alt="perfume" class="menu-title-img" width="20"
-                  height="20">
-
-                <p class="menu-title">Perfume</p>
-              </div>
-
-              <div>
-                <ion-icon name="add-outline" class="add-icon"></ion-icon>
-                <ion-icon name="remove-outline" class="remove-icon"></ion-icon>
-              </div>
-
-            </button>
-
-            <ul class="sidebar-submenu-category-list" data-accordion>
-
-              <li class="sidebar-submenu-category">
-                <a href="#" class="sidebar-submenu-title">
-                  <p class="product-name">Clothes Perfume</p>
-                  <data value="12" class="stock" title="Available Stock">12 pcs</data>
-                </a>
-              </li>
-
-              <li class="sidebar-submenu-category">
-                <a href="#" class="sidebar-submenu-title">
-                  <p class="product-name">Deodorant</p>
-                  <data value="60" class="stock" title="Available Stock">60 pcs</data>
-                </a>
-              </li>
-
-              <li class="sidebar-submenu-category">
-                <a href="#" class="sidebar-submenu-title">
-                  <p class="product-name">jacket</p>
-                  <data value="50" class="stock" title="Available Stock">50 pcs</data>
-                </a>
-              </li>
-
-              <li class="sidebar-submenu-category">
-                <a href="#" class="sidebar-submenu-title">
-                  <p class="product-name">dress & frock</p>
-                  <data value="87" class="stock" title="Available Stock">87 pcs</data>
-                </a>
-              </li>
-
-            </ul>
-
-          </li>
-
-          <li class="sidebar-menu-category">
-
-            <button class="sidebar-accordion-menu" data-accordion-btn>
-
-              <div class="menu-title-flex">
-                <img src="./assets/images/icons/cosmetics.svg" alt="cosmetics" class="menu-title-img" width="20"
-                  height="20">
-
-                <p class="menu-title">Cosmetics</p>
-              </div>
-
-              <div>
-                <ion-icon name="add-outline" class="add-icon"></ion-icon>
-                <ion-icon name="remove-outline" class="remove-icon"></ion-icon>
-              </div>
-
-            </button>
-
-            <ul class="sidebar-submenu-category-list" data-accordion>
-
-              <li class="sidebar-submenu-category">
-                <a href="#" class="sidebar-submenu-title">
-                  <p class="product-name">Shampoo</p>
-                  <data value="68" class="stock" title="Available Stock">68</data>
-                </a>
-              </li>
-
-              <li class="sidebar-submenu-category">
-                <a href="#" class="sidebar-submenu-title">
-                  <p class="product-name">Sunscreen</p>
-                  <data value="46" class="stock" title="Available Stock">46</data>
-                </a>
-              </li>
-
-              <li class="sidebar-submenu-category">
-                <a href="#" class="sidebar-submenu-title">
-                  <p class="product-name">Body Wash</p>
-                  <data value="79" class="stock" title="Available Stock">79</data>
-                </a>
-              </li>
-
-              <li class="sidebar-submenu-category">
-                <a href="#" class="sidebar-submenu-title">
-                  <p class="product-name">Makeup Kit</p>
-                  <data value="23" class="stock" title="Available Stock">23</data>
-                </a>
-              </li>
-
-            </ul>
-
-          </li>
-
-          <li class="sidebar-menu-category">
-
-            <button class="sidebar-accordion-menu" data-accordion-btn>
-
-              <div class="menu-title-flex">
-                <img src="./assets/images/icons/glasses.svg" alt="glasses" class="menu-title-img" width="20"
-                  height="20">
-
-                <p class="menu-title">Glasses</p>
-              </div>
-
-              <div>
-                <ion-icon name="add-outline" class="add-icon"></ion-icon>
-                <ion-icon name="remove-outline" class="remove-icon"></ion-icon>
-              </div>
-
-            </button>
-
-            <ul class="sidebar-submenu-category-list" data-accordion>
-
-              <li class="sidebar-submenu-category">
-                <a href="#" class="sidebar-submenu-title">
-                  <p class="product-name">Sunglasses</p>
-                  <data value="50" class="stock" title="Available Stock">50</data>
-                </a>
-              </li>
-
-              <li class="sidebar-submenu-category">
-                <a href="#" class="sidebar-submenu-title">
-                  <p class="product-name">Lenses</p>
-                  <data value="48" class="stock" title="Available Stock">48</data>
-                </a>
-              </li>
-
-            </ul>
-
-          </li>
-
-          <li class="sidebar-menu-category">
-
-            <button class="sidebar-accordion-menu" data-accordion-btn>
-
-              <div class="menu-title-flex">
-                <img src="./assets/images/icons/bag.svg" alt="bags" class="menu-title-img" width="20" height="20">
-
-                <p class="menu-title">Bags</p>
-              </div>
-
-              <div>
-                <ion-icon name="add-outline" class="add-icon"></ion-icon>
-                <ion-icon name="remove-outline" class="remove-icon"></ion-icon>
-              </div>
-
-            </button>
-
-            <ul class="sidebar-submenu-category-list" data-accordion>
-
-              <li class="sidebar-submenu-category">
-                <a href="#" class="sidebar-submenu-title">
-                  <p class="product-name">Shopping Bag</p>
-                  <data value="62" class="stock" title="Available Stock">62</data>
-                </a>
-              </li>
-
-              <li class="sidebar-submenu-category">
-                <a href="#" class="sidebar-submenu-title">
-                  <p class="product-name">Gym Backpack</p>
-                  <data value="35" class="stock" title="Available Stock">35</data>
-                </a>
-              </li>
-
-              <li class="sidebar-submenu-category">
-                <a href="#" class="sidebar-submenu-title">
-                  <p class="product-name">Purse</p>
-                  <data value="80" class="stock" title="Available Stock">80</data>
-                </a>
-              </li>
-
-              <li class="sidebar-submenu-category">
-                <a href="#" class="sidebar-submenu-title">
-                  <p class="product-name">Wallet</p>
-                  <data value="75" class="stock" title="Available Stock">75</data>
-                </a>
-              </li>
-
-            </ul>
-
-          </li>
-
-        </ul>
-
-      </div>
-    </div>
-
-
-
-
-    <!--
-            - PRODUCT MINIMAL
-          -->
-
-    <div class="product-minimal">
-
-      <div class="product-showcase">
-
-        <h2 class="title makeup">New Arrivals</h2>
-
-        <div class="showcase-wrapper has-scrollbar">
-
-          <div class="showcase-container">
-
-            <div class="showcase">
-
-              <a href="#" class="showcase-img-box">
-                <img src="images/Relaxed Short Full Sleeve T-Shirt.jpeg" alt="relaxed short full sleeve t-shirt"
-                  width="70" class="showcase-img">
-              </a>
-
-              <div class="showcase-content">
-
-                <a href="#">
-                  <h4 class="showcase-title">Relaxed Short full Sleeve T-Shirt</h4>
-                </a>
-
-                <a href="#" class="showcase-category">Clothes</a>
-
-                <div class="price-box">
-                  <p class="price">N4,500.00</p>
-                  <del>N1200.00</del>
-                </div>
-
-              </div>
-
-            </div>
-
-            <div class="showcase">
-
-              <a href="#" class="showcase-img-box">
-                <img src="images/Girls Pnk Embro Design Top.jpeg" alt="girls pink embro design top" class="showcase-img"
-                  width="70">
-              </a>
-
-              <div class="showcase-content">
-
-                <a href="#">
-                  <h4 class="showcase-title">Girls pnk Embro design Top</h4>
-                </a>
-
-                <a href="#" class="showcase-category">Clothes</a>
-
-                <div class="price-box">
-                  <p class="price">N6000.00</p>
-                  <del>N9000.00</del>
-                </div>
-
-              </div>
-
-            </div>
-
-            <div class="showcase">
-
-              <a href="#" class="showcase-img-box">
-                <img src="images/Black Floral Wrap Midi Skirt.jpg" alt="black floral wrap midi skirt"
-                  class="showcase-img" width="70">
-              </a>
-
-              <div class="showcase-content">
-
-                <a href="#">
-                  <h4 class="showcase-title">Black Floral Wrap Midi Skirt</h4>
-                </a>
-
-                <a href="#" class="showcase-category">Clothes</a>
-
-                <div class="price-box">
-                  <p class="price">N7600.00</p>
-                  <del>N14250.00</del>
-                </div>
-
-              </div>
-
-            </div>
-
-            <div class="showcase">
-
-              <a href="#" class="showcase-img-box">
-                <img src="images/Pure Garment Dyed Cotton Shirt.jpg" alt="pure garment dyed cotton shirt"
-                  class="showcase-img" width="70">
-              </a>
-
-              <div class="showcase-content">
-
-                <a href="#">
-                  <h4 class="showcase-title">Pure Garment Dyed Cotton Shirt</h4>
-                </a>
-
-                <a href="#" class="showcase-category">Mens Fashion</a>
-
-                <div class="price-box">
-                  <p class="price">N6800.00</p>
-                  <del>N13000.00</del>
-                </div>
-
-              </div>
-
+    <br>
+
+    <div class="product-div" style="background-color: rgba(179, 172, 172, 0.142); margin-top: 3em;">
+      <div class="container">
+        <h1 style="text-align: center;">this is the food</h1>
+
+        <div class="row">
+          <div class="col-lg-3 col-md-4 col-sm-6 mb-4">
+            <div class="product-card">
+              <img src="images/Manchester United F.C Third Jersey 2023-2024.webp" alt="Product 1">
+              <h3>Manchester United F.C Third Jersey 2023-2024</h3>
+              <p>₦34000</p>
             </div>
 
           </div>
-
-          <div class="showcase-container">
-
-            <div class="showcase">
-
-              <a href="#" class="showcase-img-box">
-                <img src="images/MEN Yarn Fleece Full-Zip Jacket.jpeg" alt="men yarn fleece full-zip jacket"
-                  class="showcase-img" width="70">
-              </a>
-
-              <div class="showcase-content">
-
-                <a href="#">
-                  <h4 class="showcase-title">MEN Yarn Fleece Full-Zip Jacket</h4>
-                </a>
-
-                <a href="#" class="showcase-category">Winter wear</a>
-
-                <div class="price-box">
-                  <p class="price">N6100.00</p>
-                  <del>N11000.00</del>
-                </div>
-
-              </div>
-
-            </div>
-
-            <div class="showcase">
-
-              <a href="#" class="showcase-img-box">
-                <img src="images/Mens Winter Leathers Jackets.jpg" alt="mens winter leathers jackets"
-                  class="showcase-img" width="70">
-              </a>
-
-              <div class="showcase-content">
-
-                <a href="#">
-                  <h4 class="showcase-title">Mens Winter Leathers Jackets</h4>
-                </a>
-
-                <a href="#" class="showcase-category">Winter wear</a>
-
-                <div class="price-box">
-                  <p class="price">N3200.00</p>
-                  <del>N6000.00</del>
-                </div>
-
-              </div>
-
-            </div>
-
-            <div class="showcase">
-
-              <a href="#" class="showcase-img-box">
-                <img src="images/Mens Winter Leathers Jackets.jpg" alt="mens winter leathers jackets"
-                  class="showcase-img" width="70">
-              </a>
-
-              <div class="showcase-content">
-
-                <a href="#">
-                  <h4 class="showcase-title">Mens Winter Leathers Jackets</h4>
-                </a>
-
-                <a href="#" class="showcase-category">Jackets</a>
-
-                <div class="price-box">
-                  <p class="price">N5000.00</p>
-                  <del>N8000.00</del>
-                </div>
-
-              </div>
-
-            </div>
-
-            <div class="showcase">
-
-              <a href="#" class="showcase-img-box">
-                <img src="images/Better Basics French Terry Sweatshorts.jpeg"
-                  alt="better basics french terry sweatshorts" class="showcase-img" width="70">
-              </a>
-
-              <div class="showcase-content">
-
-                <a href="#">
-                  <h4 class="showcase-title">Better Basics French Terry Sweatshorts</h4>
-                </a>
-
-                <a href="#" class="showcase-category">Shorts</a>
-
-                <div class="price-box">
-                  <p class="price">N7000.00</p>
-                  <del>N10000.00</del>
-                </div>
-
-              </div>
-
+          <div class="col-lg-3 col-md-4 col-sm-6 mb-4">
+            <div class="product-card">
+              <img src="images/Cat Designed Magnet Silver stone Ring Phone Holder- Black Gold.jpg" alt="Product 2">
+              <h3>Cat Designed Magnet Silver stone - Black Gold</h3>
+              <p>₦3400</p>
             </div>
 
           </div>
+          <div class="col-lg-3 col-md-4 col-sm-6 mb-4">
+            <div class="product-card">
+              <img src="images/Obeezi Tiempo Vetta 17 Black white sneakers.webp" alt="Product 3">
+              <h3>Obeezi Tiempo Vetta 17 Black white sneakers black colour/>difrent colour available</h3>
+              <p>₦31000</p>
+            </div>
 
+          </div>
+          <div class="col-lg-3 col-md-4 col-sm-6 mb-4">
+            <div class="product-card">
+              <img src="images/Silver Gold Watch Logo Phone Ring Holder.webp" alt="Product 4">
+              <h3>Silver Gold Watch Logo Phone Ring Holder</h3>
+              <p>₦8900</p>
+            </div>
+          </div>
         </div>
-
       </div>
 
-    </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-3 col-md-4 col-sm-6 mb-4">
+            <div class="product-card">
+              <img src="images/M.Paz Exquisite Designed Leather Slipper-Black.jpg" alt="Product 1">
+              <h3>M.Paz Exquisite Designed Leather Slipper-Black</h3>
+              <p>₦11999</p>
+            </div>
 
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-3 col-md-4 col-sm-6 mb-4">
-          <div class="product-card">
-            <img src="images/Manchester United F.C Third Jersey 2023-2024.webp" alt="Product 1">
-            <h3>Manchester United F.C Third Jersey 2023-2024</h3>
-            <p>₦34000</p>
+          </div>
+          <div class="col-lg-3 col-md-4 col-sm-6 mb-4">
+            <div class="product-card">
+              <img src="images/Bajieli Floral Sky Blue Long Sleeve Shirt.jpg" alt="Product 2">
+              <h3>Bajieli Floral Sky Blue Long Sleeve Shirt</h3>
+              <p>₦13800</p>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-4 col-sm-6 mb-4">
+            <div class="product-card">
+              <img src="images/Lcoste Blocked Designed Colors Zip Down Tracksuit- Red.webp" alt="Product 3">
+              <h3>Lcoste Blocked Designed Colors Tracksuit- Red</h3>
+              <p>₦52300</p>
+            </div>
+
+          </div>
+          <div class="col-lg-3 col-md-4 col-sm-6 mb-4">
+            <div class="product-card">
+              <img src="images/Pm Future Moto Sport GT Red Sole Sneakers- White.webp" alt="Product 4">
+              <h3>Pm Future Moto Sport GT Red Sole Sneakers- White</h3>
+              <p>₦69800</p>
+            </div>
           </div>
         </div>
-        <div class="col-lg-3 col-md-4 col-sm-6 mb-4">
-          <div class="product-card">
-            <img src="images/Cat Designed Magnet Silver stone Ring Phone Holder- Black Gold.jpg" alt="Product 2">
-            <h3>Cat Designed Magnet Silver stone - Black Gold</h3>
-            <p>₦3400</p>
+      </div>
+
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-3 col-md-4 col-sm-6 mb-4">
+            <div class="product-card">
+              <img src="images/Jeep Men's Black Genuine Leather Black Belt.webp" alt="Product 1">
+              <h3>Jeep Men's Black Genuine Leather Black Belt
+              </h3>
+              <p>₦20,398.80</p>
+            </div>
           </div>
-        </div>
-        <div class="col-lg-3 col-md-4 col-sm-6 mb-4">
-          <div class="product-card">
-            <img src="images/Obeezi Tiempo Vetta 17 Black white sneakers.webp" alt="Product 3">
-            <h3>Obeezi Tiempo Vetta 17 Black white sneakers black colour/>difrent colour available</h3>
-            <p>₦31000</p>
+          <div class="col-lg-3 col-md-4 col-sm-6 mb-4">
+            <div class="product-card">
+              <img src="images/PRL Fashion Custom Fit Mesh Chinos-Blue.webp" alt="Product 2">
+              <h3>PRL Fashion Custom Fit Mesh Chinos-Blue</h3>
+              <p>₦4999</p>
+            </div>
           </div>
-        </div>
-        <div class="col-lg-3 col-md-4 col-sm-6 mb-4">
-          <div class="product-card">
-            <img src="images/Silver Gold Watch Logo Phone Ring Holder.webp" alt="Product 4">
-            <h3>Silver Gold Watch Logo Phone Ring Holder</h3>
-            <p>₦8900</p>
+          <div class="col-lg-3 col-md-4 col-sm-6 mb-4">
+            <div class="product-card">
+              <img src="images/PRL Classic Striped Big Pony Rugby Logo Shirt- White Navy Blue Orange.webp"
+                alt="Product 3">
+              <h3>PRL Classic Striped Big Pony Rugby Logo Shirt- White</h3>
+              <p>₦3000</p>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-4 col-sm-6 mb-4">
+            <div class="product-card">
+              <img src="images/Vilebre Floral Print Short-Blue.jpg" alt="Product 4">
+              <h3>Vilebre Floral Print Short-Blue & diffrent Colour</h3>
+              <p>₦10,798.80</p>
+            </div>
           </div>
         </div>
       </div>
     </div>
 
-
-
-
-
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-3 col-md-4 col-sm-6 mb-4">
-          <div class="product-card">
-            <img src="images/M.Paz Exquisite Designed Leather Slipper-Black.jpg" alt="Product 1">
-            <h3>M.Paz Exquisite Designed Leather Slipper-Black</h3>
-            <p>₦11999</p>
-          </div>
-        </div>
-        <div class="col-lg-3 col-md-4 col-sm-6 mb-4">
-          <div class="product-card">
-            <img src="images/Bajieli Floral Sky Blue Long Sleeve Shirt.jpg" alt="Product 2">
-            <h3>Bajieli Floral Sky Blue Long Sleeve Shirt</h3>
-            <p>₦13800</p>
-          </div>
-        </div>
-        <div class="col-lg-3 col-md-4 col-sm-6 mb-4">
-          <div class="product-card">
-            <img src="images/Lcoste Blocked Designed Colors Zip Down Tracksuit- Red.webp" alt="Product 3">
-            <h3>Lcoste Blocked Designed Colors Tracksuit- Red</h3>
-            <p>₦52300</p>
-          </div>
-        </div>
-        <div class="col-lg-3 col-md-4 col-sm-6 mb-4">
-          <div class="product-card">
-            <img src="images/Pm Future Moto Sport GT Red Sole Sneakers- White.webp" alt="Product 4">
-            <h3>Pm Future Moto Sport GT Red Sole Sneakers- White</h3>
-            <p>₦69800</p>
-          </div>
-        </div>
-      </div>
-    </div>
-
-
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-3 col-md-4 col-sm-6 mb-4">
-          <div class="product-card">
-            <img src="images/Jeep Men's Black Genuine Leather Black Belt.webp" alt="Product 1">
-            <h3>Jeep Men's Black Genuine Leather Black Belt
-            </h3>
-            <p>₦20,398.80</p>
-          </div>
-        </div>
-        <div class="col-lg-3 col-md-4 col-sm-6 mb-4">
-          <div class="product-card">
-            <img src="images/PRL Fashion Custom Fit Mesh Chinos-Blue.webp" alt="Product 2">
-            <h3>PRL Fashion Custom Fit Mesh Chinos-Blue</h3>
-            <p>₦4999</p>
-          </div>
-        </div>
-        <div class="col-lg-3 col-md-4 col-sm-6 mb-4">
-          <div class="product-card">
-            <img src="images/PRL Classic Striped Big Pony Rugby Logo Shirt- White Navy Blue Orange.webp"
-              alt="Product 3">
-            <h3>PRL Classic Striped Big Pony Rugby Logo Shirt- White</h3>
-            <p>₦3000</p>
-          </div>
-        </div>
-        <div class="col-lg-3 col-md-4 col-sm-6 mb-4">
-          <div class="product-card">
-            <img src="images/Vilebre Floral Print Short-Blue.jpg" alt="Product 4">
-            <h3>Vilebre Floral Print Short-Blue & diffrent Colour</h3>
-            <p>₦10,798.80</p>
-          </div>
-        </div>
-      </div>
-    </div>
+<!-- This is part of the  -->
 
     <div class="container d-flex justify-content-center align-items-center">
       <div class="custom-div">
@@ -1002,7 +435,11 @@
         </p>
       </div>
     </div>
+
+
   </Main_section>
+
+
 
   <!-- FOOTER -->
 
@@ -1035,26 +472,6 @@
       </div>
     </div>
   </footer>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
