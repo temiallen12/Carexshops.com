@@ -75,7 +75,7 @@
 
 .navbar {
   padding: 12px;
- 
+
   position: relative;
 }
 
@@ -190,6 +190,7 @@
   display: grid;
   grid-template-columns: 3fr;
   gap: 25px;
+  border-radius: 6px;
 }
 
 .product-grid .showcase {
@@ -351,11 +352,13 @@
 /* Featured collection */
 
 .product-card {
+  border-radius: 6px;
   border: 3px solid pink;
   transition: all 0.3s;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   padding: 20px;
   text-align: center;
+  background-color: white;
 }
 
 .product-card:hover {
@@ -378,6 +381,10 @@
 .product-card p {
   font-size: 1rem;
 }
+/* end of product card */
+
+
+
 
 /* END Featured collection */
 
@@ -390,7 +397,7 @@
   width: 100%;
   margin-top: 30px;
   height: 30rem;
-  padding-top: 7rem;
+ 
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 
 }
@@ -451,12 +458,12 @@
 
 mentor {
   margin: 0;
- padding: 0;
- background: linear-gradient(to bottom right, #E3F0FF, #FAFCFF);
- height: 100vh;
- display: flex;
- justify-content: center;
- align-items: center;
+  padding: 0;
+  background: linear-gradient(to bottom right, #E3F0FF, #FAFCFF);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .Cart-Container {
@@ -465,7 +472,7 @@ mentor {
   background-color: #ffffff;
   border-radius: 20px;
   box-shadow: 0px 25px 40px #1687d933;
-  
+
 }
 
 /* 
@@ -554,3 +561,4 @@ hr {
 .button {
  
 } */
+

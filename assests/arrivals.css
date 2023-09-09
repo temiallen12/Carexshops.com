@@ -37,7 +37,7 @@ body{
 .split1 {
   display: flex;
   flex-direction: row;
-  margin-left: -20px;
+  margin-left: px;
   margin-bottom: 40px;
 }
 .bottom {
