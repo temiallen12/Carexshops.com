@@ -475,6 +475,51 @@ mentor {
 
 }
 
+
+.deal-con{
+ height: 500px;
+ width: 100%;
+ background: rgb(199, 196, 196);
+
+}
+.container{
+  height: 100%;
+  width: 100%;
+}
+.deal-img{
+ height: 100%;
+ width: 100%;
+
+}
+.deal-img img{
+  height: 100%;
+  width: 70%;
+align-items: center;
+margin-top: 7%;
+margin-left: 100px;
+}
+.deal-texts{
+  padding: 15px;
+}
+.top-text{
+  margin-top: 7%;
+  margin-bottom: 4%;
+  font-size: 20px;
+  color: green;
+  font-weight: bolder;
+}
+.mid-text{
+  font-weight: bolder;
+  color: black;
+  margin-bottom: 3%;
+}
+.btn-1{
+  margin-top: 3%;
+  height: 40px;
+  width: 150px;
+  border: none;
+  background: green;
+}
 /* 
 .Header {
  
