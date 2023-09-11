@@ -2,7 +2,7 @@ body {
     margin: 0;
     padding: 0;
     background: linear-gradient(to bottom right, #E3F0FF, #FAFCFF);
-    height: 20vh;
+    height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -10,12 +10,12 @@ body {
 
 .Cart-Container {
     width: 70%;
-    height: 15%;
+    height: 85%;
     background-color: #ffffff;
     border-radius: 20px;
     box-shadow: 0px 25px 40px #1687d933;
 }
-/* 
+
 .Header {
     margin: auto;
     width: 90%;
@@ -76,13 +76,17 @@ body {
     color: #909090;
 }
 
-.counter{
+.counter {
     width: 15%;
     display: flex;
     justify-content: space-between;
     align-items: center;
-   }
-   .btn{
+    position: relative;
+    left: 90vh;
+    bottom: 18vh;
+}
+
+.btn {
     width: 40px;
     height: 40px;
     border-radius: 50%;
@@ -95,77 +99,93 @@ body {
     font-weight: 900;
     color: #202020;
     cursor: pointer;
-   }
-   .count{
+}
+
+.count {
     font-size: 20px;
     font-family: ‘Open Sans’;
     font-weight: 900;
     color: #202020;
-   }
+}
 
-   .prices{
+.prices {
     height: 100%;
     text-align: right;
-   }
-   .amount{
+    position: relative;
+    right: 50px;
+    bottom: 30vh;
+}
+
+.amount {
     padding-top: 20px;
     font-size: 26px;
     font-family: ‘Open Sans’;
     font-weight: 800;
     color: #202020;
-   }
-   .save{
+}
+
+.save {
     padding-top: 5px;
     font-size: 14px;
     font-family: ‘Open Sans’;
     font-weight: 600;
     color: #1687d9;
     cursor: pointer;
-   }
-   .remove{
+}
+
+.remove {
     padding-top: 5px;
     font-size: 14px;
     font-family: ‘Open Sans’;
     font-weight: 600;
     color: #E44C4C;
     cursor: pointer;
-   }
+}
 
-   hr{
+hr {
     width: 66%;
     float: right;
     margin-right: 5%;
-   }
-   .checkout{
+}
+
+.checkout {
     float: right;
     margin-right: 5%;
     width: 28%;
-   }
-   .total{
+    position: relative;
+    bottom: 60vh;
+} 
+
+.total {
     width: 100%;
     display: flex;
     justify-content: space-between;
-   }
-   .Subtotal{
+    
+}
+
+.Subtotal {
     font-size: 22px;
     font-family: ‘Open Sans’;
     font-weight: 700;
     color: #202020;
-   }
-   .items{
+}
+
+.items {
     font-size: 16px;
     font-family: ‘Open Sans’;
     font-weight: 500;
     color: #909090;
     line-height: 10px;
-   }
-   .total-amount{
+}
+
+.total-amount {
     font-size: 36px;
     font-family: ‘Open Sans’;
     font-weight: 900;
     color: #202020;
-   }
-   .button{
+}
+
+.button {
     margin-top: 5px;
     width: 100%;
     height: 40px;
@@ -177,4 +197,4 @@ body {
     font-family: ‘Open Sans’;
     font-weight: 600;
     color: #202020;
-   } */
+}
