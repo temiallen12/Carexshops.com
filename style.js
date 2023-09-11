@@ -1,6 +1,6 @@
 let myIndex = 0;
 carousel();
-
+console.log({ products })
 function carousel() {
   let i;
   let x = document.getElementsByClassName("slide4");

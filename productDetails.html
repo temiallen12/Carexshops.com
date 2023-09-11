@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Parent and Child Divs</title>
+    <!-- Include Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.5.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    
+
+    <style>
+        /* Custom CSS */
+        .parent-div {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin: 20px;
+            padding: 20px;
+            
+        }
+
+        .child-div {
+            flex: 0 0 48%; /* Adjust width as needed */
+            padding: 10px;
+            box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+            transition: box-shadow 0.3s ease;
+            background-color: #fff;
+            margin-bottom: 20px;
+            height: 30rem;
+        }
+
+        .child-div:hover {
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+        }
+
+        img {
+            max-width: 100%;
+            height: auto;
+        }
+        .btn-flex{
+          
+            margin-top: 20px;
+            padding: 15px 20px;
+        }
+        .last-child{
+            margin: auto;
+            margin-bottom: 30px;
+            justify-content: center;
+            align-content: center;
+            align-self: center;
+            
+            
+        }
+          /* Parent Div */
+          .parent-div {
+            display: flex;
+            justify-content: center; /* Center horizontally */
+            align-items: center; /* Center vertically */
+            width: 80%; /* Full viewport width */
+      
+            
+            margin: auto;
+        }
+
+        /* Child Divs */
+        .child-div {
+            text-align: center; /* Center text horizontally */
+            padding: 20px;
+        }
+.inline-btn{
+    display: inline;
+}
+
+  /* Parent Div */
+  .button-container {
+            background-color: pink;
+            padding: 10px; /* Add padding for spacing */
+            margin-bottom: 30px;
+        }
+
+        /* Buttons */
+        .button-container button {
+            display: inline-block; /* Make buttons inline */
+            margin-right: 10px; /* Add spacing between inline buttons */
+            margin: auto;
+        }
+
+        /* Make the first button a block element */
+        .button-container button:first-child {
+            /* display: block; */
+            margin-bottom: 10px; /* Add spacing below the block button */
+        }
+        button{
+            padding: 10px 25px;
+        }
+
+
+
+
+
+
+
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        
+        
+    </div>
+    <div class="title div">
+     
+    </div>
+
+    <!-- Include Bootstrap JS and jQuery (optional) -->
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+ <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.5.0/dist/js/bootstrap.bundle.min.js"></script>
+ <script src="./js/products.js" ></script>
+ <script src="./js/product-details.js" ></script>
+</body>
+</html>
