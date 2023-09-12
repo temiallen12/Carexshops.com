@@ -521,6 +521,15 @@ margin-left: 100px;
   border: none;
   background: green;
 }
+@media only screen and (max-width: 992px) {
+  .deal-img  {
+    display: none;
+  }
+  .deal-texts{
+    align-items: center;
+    width: 100%;
+  }
+}
 /* 
 .Header {
  
