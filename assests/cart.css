@@ -5,7 +5,39 @@ body {
     height: 100vh;
     display: flex;
     justify-content: center;
+    align-items: center;    
+}
+
+/* Successful Purchase css */
+
+.modal {
+    width: 100%;
+    position: absolute;
+    background-color: rgba(0,0,0,0.4);
+    height: 100vh;
+    z-index: 100;
+    display: none;
+}
+
+.modal-content {
+    background-color: white;
+    position: relative;
+    font-family: Tahoma;
+    width: 50%;
+    height: 50vh;
+    margin: 4% auto;
+    padding: 2%;
+    display: flex;
     align-items: center;
+    justify-content: center;
+    border-radius: 25px;
+}
+
+.time {
+    color: white;
+    float: right;
+    font-size: 4rem;
+    cursor: pointer;
 }
 
 .Cart-Container {
@@ -27,7 +59,7 @@ body {
 
 .Heading {
     font-size: 20px;
-    font-family: ‘Open Sans’;
+    font-family: Tahoma;
     font-weight: 700;
     color: #2F3841;
 }
@@ -45,7 +77,6 @@ body {
     margin: auto;
     width: 90%;
     height: 30%;
-    display: flex;
     justify-content: space-between;
     align-items: center;
 }
@@ -56,15 +87,12 @@ body {
 }
 
 .about {
-    height: 100%;
+    width: 50%;
 }
 
 .title {
     padding-top: 5px;
-    line-height: 10px;
-    font-size: 32px;
-    font-family: ‘Open Sans’;
-    font-weight: 800;
+    font-family: Tahoma;
     color: #202020;
 }
 
@@ -119,7 +147,7 @@ body {
 .amount {
     padding-top: 20px;
     font-size: 26px;
-    font-family: ‘Open Sans’;
+    font-family: Tahoma;
     font-weight: 800;
     color: #202020;
 }
@@ -153,14 +181,14 @@ hr {
     margin-right: 5%;
     width: 28%;
     position: relative;
-    bottom: 60vh;
+    bottom: 80vh;
 } 
 
 .total {
     width: 100%;
     display: flex;
     justify-content: space-between;
-    
+    font-family: Tahoma;
 }
 
 .Subtotal {
@@ -180,7 +208,7 @@ hr {
 
 .total-amount {
     font-size: 36px;
-    font-family: ‘Open Sans’;
+    font-family: Tahoma;
     font-weight: 900;
     color: #202020;
 }
@@ -194,7 +222,7 @@ hr {
     border-radius: 20px;
     cursor: pointer;
     font-size: 16px;
-    font-family: ‘Open Sans’;
+    font-family: Tahoma;
     font-weight: 600;
     color: #202020;
 }
