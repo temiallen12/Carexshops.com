@@ -11,7 +11,7 @@ const detailsTemplate = `
             </div>
             <div class="child-div last-child">
                 <h2>${product.name}</h2>
-                <h3>#${product.amount}</h3>
+                <h3>₦${product.amount}</h3>
                 
                 <div class="button-container">
                 <button class="button-">-</button>
@@ -20,7 +20,7 @@ const detailsTemplate = `
             </div>         
                
 
-                    <button class="btn btn-success last-child inline-btn">Add to Cart</button> 
+                    <button style="cursor:pointer;" onclick="addtoCart(${productId})" class="btn btn-success last-child inline-btn">Add to Cart</button> 
                 
             </div>
             
@@ -29,6 +29,9 @@ const detailsTemplate = `
 
 `
 
+function addtoCart(productId) {
+    window.location.href = `cart.html?id=${productId}`
+}
 const productTemplate = document.querySelector(".container")
 productTemplate.innerHTML = detailsTemplate
 
