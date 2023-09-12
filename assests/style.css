@@ -85,6 +85,7 @@
   display: flex;
   gap: 20px;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-align: center;
 }
 
 .mentor_MAIN {
@@ -95,6 +96,9 @@
 .problem {
   display: flex;
   justify-content: center;
+  text-align: center;
+  position: relative;
+  right: 90px;
 
 }
 
@@ -637,7 +641,7 @@ hr {
   position: relative;
   width: 60%;
   height: 40px;
-  left: 10vh
+  left: 10vh;
   
 }
 
@@ -662,3 +666,5 @@ hr {
   font-size: 20px;
   color: #fff;
 }
+
+
