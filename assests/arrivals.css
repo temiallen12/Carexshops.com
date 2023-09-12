@@ -5,6 +5,8 @@ body{
 }
 .align{
     display: inline;
+    border: 2px solid black;
+    background: #8cd1f8 !important;
 }
 /* top row */
 .split {
@@ -44,4 +46,8 @@ body{
   text-align: center;
   font-size: 30px;
   font-family: "Roboto", sans-serif;
+}
+
+.align-div{
+  background-color: blue !important;
 }

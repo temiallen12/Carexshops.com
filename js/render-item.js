@@ -1,8 +1,8 @@
 // Render each products
 const productCardElems = products.map((product, index) => {
     return `
-    <div class="col-lg-3 col-md-4 col-sm-6 mb-4">
-        <div class="product-card" onclick="viewProductDetails(${index})">
+    <div class="col-lg-3 col-md-4 col-sm-6 mb-4 ">
+        <div class="product-card segun-captain" onclick="viewProductDetails(${index})">
         <img
             src="${product.imageSrc}"
             alt="Product 1"

@@ -12,8 +12,8 @@
   --bittersweet: hsl(0, 100%, 70%);
   --ocean-green: hsl(152, 51%, 52%);
   --davys-gray: hsl(0, 0%, 33%);
-  --cultured: hsl(0, 0%, 93%);
-  --white: hsl(0, 100%, 100%);
+  /* --cultured: hsl(0, 0%, 93%);
+  --white: hsl(0, 100%, 100%); */
   --onyx: hsl(0, 0%, 27%);
 
   /**
@@ -52,7 +52,6 @@
   --transition-timing: 0.2s ease;
 
 }
-
 
 
 
@@ -373,6 +372,32 @@
   border-radius: 10px;
   margin-bottom: 10px;
 }
+.segun-captain{
+  height: 33rem;
+}
+
+
+/* customer review */
+
+
+.carousel-review{
+  margin-top: 20px;
+  margin: auto;
+  height: 500px;
+  width: 100px;
+  border-radius: 100%;
+  border: 2px solid black;
+}
+
+.slide{
+  margin-top: 60px;
+}
+.text-center{
+  width: 70%;
+  margin: auto;
+  padding: 2rem;
+}
+
 
 .product-card h3 {
   font-size: 1.5rem;
@@ -406,6 +431,7 @@
 .custom-div h3 {
   font-size: 2rem;
   padding-bottom: 1rem;
+  margin-top: 50px;
 }
 
 .custom-div p {
@@ -478,9 +504,7 @@ mentor {
 
 
 .deal-con{
- height: 500px;
- width: 100%;
- background: rgb(199, 196, 196);
+
 
 }
 .container{
@@ -506,7 +530,7 @@ margin-left: 100px;
   margin-top: 7%;
   margin-bottom: 4%;
   font-size: 20px;
-  color: green;
+  color: pink;
   font-weight: bolder;
 }
 .mid-text{
@@ -519,17 +543,9 @@ margin-left: 100px;
   height: 40px;
   width: 150px;
   border: none;
-  background: green;
+  background: pink;
 }
-@media only screen and (max-width: 992px) {
-  .deal-img  {
-    display: none;
-  }
-  .deal-texts{
-    align-items: center;
-    width: 100%;
-  }
-}
+
 /* 
 .Header {
  
@@ -617,3 +633,32 @@ hr {
  
 } */
 
+.search-bar {
+  position: relative;
+  width: 60%;
+  height: 40px;
+  left: 10vh
+  
+}
+
+.search-bar input {
+  width: 100%;
+  height: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+}
+
+.search-bar button {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 40px;
+  height: 40px;
+  border: none;
+  background-color: #ccc;
+}
+
+.search-bar button i {
+  font-size: 20px;
+  color: #fff;
+}
