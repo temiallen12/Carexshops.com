@@ -9,7 +9,7 @@ const productCardElems = products.map((product, index) => {
         />
         <h3>${product.name}</h3>
         <p>₦${product.amount}</p>
-        <button class="add-to-cart btn btn-lg btn-secondary" data-id="1">Add to Cart</button>
+        <button class="add-to-cart btn btn-lg btn-secondary" data-id="1">Buy Now</button>
         </div>
     </div>
     `

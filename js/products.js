@@ -60,11 +60,7 @@ const products = [
         amount: 10798.80, 
         imageSrc: "images/Vilebre Floral Print Short-Blue.jpg" 
     },
-     {   name: "Vilebre Floral Print Short-Blue & diffrent Colour", 
-        amount: 10798.80, 
-        imageSrc: "images/Vilebre Floral Print Short-Blue.jpg" 
-    },
-
+   
 ]
 
 
